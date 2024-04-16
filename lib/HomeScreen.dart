@@ -113,6 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
       bottomNavigationBar: NavigationBar(
         backgroundColor: Colors.white,
+        indicatorColor: Colors.grey[400],
         selectedIndex: 0,
         onDestinationSelected: (index){
           setState(() {
