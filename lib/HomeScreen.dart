@@ -27,75 +27,90 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Column(
-                  children: [
-                    CircleAvatar(
-                      backgroundColor: Colors.grey[200],
-                      backgroundImage: AssetImage('assets/images/men.png'),),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text('Men',
-                      style: TextStyle(
-                        fontSize: 12,
-                      ),),
-                    )
-                  ],
-                ),
-                Column(
-                  children: [
-                    CircleAvatar(
-                      backgroundColor: Colors.grey[200],
-                      backgroundImage: AssetImage('assets/images/women.png'),),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text('Women',
+                InkWell(
+                  onTap: (){},
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.grey[200],
+                        backgroundImage: AssetImage('assets/images/men.png'),),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Men',
                         style: TextStyle(
                           fontSize: 12,
                         ),),
-                    )
-                  ],
+                      )
+                    ],
+                  ),
                 ),
-                Column(
-                  children: [
-                    CircleAvatar(
-                      backgroundColor: Colors.grey[200],
-                      backgroundImage: AssetImage('assets/images/cloth.png'),),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text('Clothing',
-                        style: TextStyle(
-                          fontSize: 12,
-                        ),),
-                    )
-                  ],
+                InkWell(
+                  onTap: (){},
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.grey[200],
+                        backgroundImage: AssetImage('assets/images/women.png'),),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Women',
+                          style: TextStyle(
+                            fontSize: 12,
+                          ),),
+                      )
+                    ],
+                  ),
                 ),
-                Column(
-                  children: [
-                    CircleAvatar(
-                      backgroundColor: Colors.grey[200],
-                      backgroundImage: AssetImage('assets/images/posters.png'),),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text('Posters',
-                        style: TextStyle(
-                          fontSize: 12,
-                        ),),
-                    )
-                  ],
+                InkWell(
+                  onTap: (){},
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.grey[200],
+                        backgroundImage: AssetImage('assets/images/cloth.png'),),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Clothing',
+                          style: TextStyle(
+                            fontSize: 12,
+                          ),),
+                      )
+                    ],
+                  ),
                 ),
-                Column(
-                  children: [
-                    CircleAvatar(
-                      backgroundColor: Colors.grey[200],
-                      backgroundImage: AssetImage('assets/images/music.png'),),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text('Music',
-                        style: TextStyle(
-                          fontSize: 12,
-                        ),),
-                    ),
-                  ],
+                InkWell(
+                  onTap: (){},
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.grey[200],
+                        backgroundImage: AssetImage('assets/images/posters.png'),),
+                      Padding(
+                        padding: const EdgeInsets.all(6.0),
+                        child: Text('Posters',
+                          style: TextStyle(
+                            fontSize: 12,
+                          ),),
+                      )
+                    ],
+                  ),
+                ),
+                InkWell(
+                  onTap: (){},
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.grey[200],
+                        backgroundImage: AssetImage('assets/images/music.png'),),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Music',
+                          style: TextStyle(
+                            fontSize: 12,
+                          ),),
+                      ),
+                    ],
+                  ),
                 ),
         
         
